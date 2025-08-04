@@ -11,7 +11,7 @@ import utility.ReadExcelFile;
 public class PaymentTestCase extends BaseTest {
 	
 String fileName=System.getProperty("user.dir")+"\\TestData\\TestPortalData.xlsx";
-	
+	// All Tested 
 	@Test(priority =1)
 	void testcourses()
 	{
