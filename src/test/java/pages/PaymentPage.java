@@ -41,7 +41,7 @@ public class PaymentPage {
 		cardnum.sendKeys(cardnumber);
 		expdate.sendKeys(exp);
 		cvc.sendKeys(cvcnu);
-		
+		//
 		driver.switchTo().defaultContent();
 	
 		paybtn.click();
