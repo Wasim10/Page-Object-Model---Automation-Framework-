@@ -37,7 +37,7 @@ public class PaymentPage {
 		placeorderbtn.submit();
 		
 		driver.switchTo().frame(frameelement);
-		// 
+		//  test
 		cardnum.sendKeys(cardnumber);
 		expdate.sendKeys(exp);
 		cvc.sendKeys(cvcnu);
