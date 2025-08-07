@@ -14,7 +14,7 @@ String fileName=System.getProperty("user.dir")+"\\TestData\\TestPortalData.xlsx"
 	// All Tested 
 	@Test(priority =1)
 	void testcourses()
-	{  // just changes 
+	{  // just changes  
 		LoginPage lp=new LoginPage(driver);
 		String username=ReadExcelFile.getCellValue(fileName, "LoginData", 1, 0);
 		String password=ReadExcelFile.getCellValue(fileName, "LoginData", 1, 1);
